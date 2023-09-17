@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <h1>OTP</h1>
+    <div>otp sent to {{mailId}}</div>
+    <form action="/otp" method="post">
+        <input placeholder="otp" name="otp" type="number">
+        <input type="hidden" name="mailId" value="{{mailId}}">
+        <br>
+        <input class="sub" type="submit">
+     <h3>Dont have a account ?</h3>
+    <a href="/signup">is there a change in the credentials or email Id</a>
+    </form>
+
+
+    
+</body>
+</html>
