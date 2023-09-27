@@ -36,11 +36,6 @@ app.get('/', (req, res) => {
 
 app.post('/signup', async (req, res) => {
     
-    // const data = new LogInCollection({
-    //     name: req.body.name,
-    //     password: req.body.password
-    // })
-    // await data.save()
 
     dataList.push({
         name: req.body.name,
