@@ -1,7 +1,7 @@
 const express = require("express")
 var nodemailer = require('nodemailer');
-const senderMail = "sus**nth*****ne@gmail.com";
-const pass = "";
+const senderMail = "sushanth888fine@gmail.com";
+const pass = "khqh djlq urii pvzm";
 var otpStore = {};
 function generate() {// generate a 6 digit random number
     var add = 1, max = 12 - add;
